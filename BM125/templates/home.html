@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+{% load static %}
+<html style="background:#66CC66;">
+
+<head>
+<title>CV BOURKI Mohamed</title>
+
+
+	<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
+<meta charset="UTF-8"> 
+
+<link type="text/css" rel="stylesheet" href="{% static 'css/style.css'  %}">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body style="background:#66CC66;">
+<!-- #66CC66 -->
+
+
+
+<div id="cv"  class="instaFade" >
+
+<nav style="background-color:#66CC66;height:30px;width:900px">
+    <!--<button type="button" name="button" class="final__gradient-button-1">Expériences</button>
+	<button type="button" name="button" class="Stages">Stages</button>
+	<button type="button" name="button" class="S-PFE">S-PFE</button>
+	<button type="button" name="button" class="Diplomes">Diplomes</button>
+	<button type="button" name="button" class="Compétences">Compétences</button>
+	<button type="button" name="button" class="motivation">Littre de motivation</button>
+	<button type="button" name="button" class="Espaniol">version Espaniol</button>-->
+	<a href="{% url 'eng' %}">
+	<button type="button" name="button" class="Fensh">english version</button>
+	</a>
+
+
+</nav>
+
+	<div class="mainDetails" style="background:#FFA500" >
+		<div id="headshot" class="quickFade">
+			<img src="{% static 'images/headshot.jpg'%}"
+			 alt="BOURKI Mohamed" />
+		</div>
+
+
+
+		
+		<div id="name">
+			<h1 style="color:#228B22"   class="quickFade delayTwo">BOURKI Mohamed</h1>
+			<h2 style="color:#006400" class="quickFade delayThree">Etudiant</h2>
+		</div>
+
+		
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li>Gmail: <a href="bourkimohamed95@gmail.com" target="_blank">bourkimohamed95@gmail.com</a></li>
+				<li>Date de naissance:12/08/1995</li>
+				<li>Mobile: <big>0682986959</big>/0610747180  </li>
+				<li>Linkedin:<a href="https://www.linkedin.com/in/mohamed-bourki-448948193/" target="_blank">linkedin bourkimohamed</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section id="sec1">
+			<article>
+				<div class="sectionTitle">
+					<h1>Profil personnel</h1>
+				</div>
+				
+				<div class="sectionContent">
+
+
+					<p id="hy"> Etudiant en Master Sante Humaine et
+						Ressources Naturelles Oasienne <br>Développeur web par python et Django<br>
+						Biopython et data analyse par python</p>
+
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>L'expérience professionnelle</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h3>Pharamcie:Gestion et commerce,préparation officinale</h3>
+
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Compétences fondamentales</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Biopython</li>
+
+					<li>Develppement web/python/Django</li>
+
+					<li>Datta analyse</li>
+
+					<li>Microsopht Office</li>
+
+					<li>Arc-Gis</li>
+
+					<li>Filmora (montage dse vidéos)</li>
+
+					<li>SPSS(biostatistique...)</li>
+
+					<li>Biologie:Pharamcologie,<br>Ecologie,Biomoléculaire,...</li>
+
+
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<section>
+			<div class="sectionTitle">
+				<h1>Les langues</h1>
+			</div>
+
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Tamazight</li>
+
+					<li>Arab</li>
+
+					<li>Anglais</li>
+
+					<li>Français</li>
+
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		<section>
+		<div class="sectionTitle">
+				<h1>Diplômes</h1>
+				<div id="shrno" class="quickFade">
+			<img src="{% static 'images/shrno.jpg'%}"
+			 alt="BOURKI Mohamed" />
+		        </div>
+				<div id="fst" class="quickFade">
+			<img src="{% static 'images/fst.jpg'%}"
+			 alt="BOURKI Mohamed" />
+		        </div>
+		</div>
+
+
+
+
+			<div class="sectionContent">
+				<article>
+					<h2>Master Santé Humaine et Ressources Naturelles Oasienne</h2>
+					<p class="subDetails">2019-2022</p>
+					<p>Faculté des Sciences et Tehniques Errachidia.</p>
+				</article>
+				
+				<article>
+					<h2>BAC+3 Licence Biologie et Sante</h2>
+					<p class="subDetails">2018-2019</p>
+					<p> Faculté des Sciences et Tehniques Errachidia.</p>
+				</article>
+				<article>
+					<h2>BAC+2 DEUST Biologie Chimie Geologie(BCG)</h2>
+					<p class="subDetails">2015-2018</p>
+					<p> Faculté des Sciences et Tehniques Errachidia.</p>
+					<h2>BAC Sciences Agronomiques</h2>
+					<p class="subDetails">2015-2018</p>
+					<p> lycée Errachidia.</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<section>
+			<div class="sectionTitle">
+				<h1>Certifications</h1>
+				<div id="pyt" class="quickFade">
+			<img src="{% static 'images/pyt.jpg'%}"
+			 alt="BOURKI Mohamed" />
+		        </div>
+
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<h2 STYLE="color:#BA55D3">Informatique-Programation</h2>
+					<h3>python basics Bootcamp for beginners in data</h3>
+					<p class="subDetails">Udemy</p>
+					<h3>Complet SQL Bootcamp with Mysql python</h3>
+					<p class="subDetails">Udemy</p>
+					<h3>python for bebinners all the basics of python </h3>
+					<p class="subDetails">Udemy</p>
+					<h3>Django with data science</h3>
+					<p class="subDetails">Udemy</p>
+					<h3>Les fondements des statistiques</h3>
+					<p class="subDetails">Linkedin</p>
+					<h3>Développer son intelligence émotionnelle</h3>
+					<p class="subDetails">Linkedin</p>
+					<h3>Les fondements de la gestion de projet : La qualité</h3>
+					<p class="subDetails">Linkedin</p>
+					<h3>Succeeding in Web Development: Full Stack and Front End</h3>
+					<p class="subDetails">Linkedin</p>
+					<h3>Python : L'analyse de données</h3>
+					<p class="subDetails">Linkedin</p>
+					<h3>Programming Foundations: Fundamentals</h3>
+					<p class="subDetails">Linkedin</p>
+					<h3>Programming Foundations: Databases</h3>
+					<p class="subDetails">Linkedin</p>
+					<h3>Learning SQL Programming</h3>
+					<p class="subDetails">Linkedin</p>
+					<h3>CSS Essential Training</h3>
+					<p class="subDetails">Linkedin</p>
+					<h3>Learning Python</h3>
+					<p class="subDetails">Linkedin</p>
+					<h3>Programming Foundations: Web Security</h3>
+					<p class="subDetails">Linkedin</p>
+					<h3>Learning Java</h3>
+					<p class="subDetails">Linkedin</p>
+					<h3>HTML Essential Training</h3>
+					<p class="subDetails">Linkedin</p>
+					<h2 style="color:#BA55D3">Biologie</h2>
+					<h3>Infection Prevention and Control (IPC) core components and multimodal strategies</h3>
+					<p class="subDetails">OMS WEB SITE</p>
+					<h3>Basic microbiology</h3>
+					<p class="subDetails">OMS WEB SITE</p>
+<section>
+	<h2 style="color:green">Résumé PFE Licence</h2>
+	<br>
+	<div>
+
+    <div>
+	<h2 style="color:red;">Objectif:</h2>
+<p>  L’objectif de notre étude est d’étudier les effets bénéfiques de la diète oasienne sur le développement des maladies cardiovasculaires et leurs facteurs de risque dans la population de RISSANI.
+	</p></div>
+	<div>
+		<h2 style="color:red">Méthodologie :</h2>
+<p>Pour mener à bien ce travail, nous avons utilisé un rappel rétrospectif de 24h sur le régime alimentaire évalué par un score (ODS), et aussi un questionnaire afin de rassembler diverses informations inhérentes sur les caractéristiques des individus et sur les maladies cardiovasculaires et leurs facteurs de risque.
+</p>
+   </div>
+	<div>
+	<h2 style="color:red">Resultat</h2>
+<p>Notre population d’intérêt est constituée de 101 individus, au bout de laquelle nous avons trouvé que le niveau d’adhérence élevée à la diète oasienne entraine une diminution spectaculaire du  développement des évènements cardiovasculaires et leurs facteurs de risque. Ainsi que notre résultat montre que le score de la diète oasienne variait d’une façon significative en fonction de la prise de tabac (p<0.01), de l’âge (p<0.01), et du niveau académique (p<0.05).
+</p>
+   </div>
+	<div>
+	<h2 style="color:red">Conclusion :</h2>
+<p>D’après cette étude en peut conclure que le niveau d’adhérence à la diète oasienne est inversement associé avec les développements des maladies cardiovasculaires.
+	<br>Mots clés : Rissani, Maladies cardiovasculaires, Diète Oasienne Marocaine</p>
+    </div>
+
+	</div>
+ 
+
+
+
+</section>
+
+				</article>
+
+<section>
+
+	<embed src="">
+
+</section>
+
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+	</div>
+</div>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+
+
+<footer><p>this web site create by BOURKI Mohamed ,Copyright</p></footer>
+
+</body>
+</html>
